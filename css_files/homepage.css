@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+nav{
+	width: 100vw;
+	background-color: #353433 ;
+	position: fixed;
+	opacity: 0.75;
+} 
+
+.header{
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/myplace.jpg) ;
+	height: 100vh;
+	width: 98.5vw;
+	background-size: cover;
+	background-position: center;
+}
+header ul{
+	float: right ;
+	list-style-type:none ;
+	margin-top: 20px;
+	font-size: x-large;
+	padding-right: 20px;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	text-decoration: none;
+	text-align: center;
+	color: #FAEBD7;
+	margin: 0 7px;
+	padding: 14px, 16px;
+	transition: 0.6s ease;
+}
+header ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.active{
+	background-color: white;
+	color: black;
+}
+#logo {
+	float: left;
+	width: 75px;
+	height: 75px;
+	
+}
+.headline h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.headline h1{
+	color: white;
+	font-size: xx-large;
+}
+.headline p{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.headline p{
+	color: white;
+	font-size: x-large;
+}
+.calltoaction{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.button{
+	border: 1px solid white;
+	padding:10px 30px ;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.button:hover{
+	background-color: white;
+	color: black;
+}
+.benefits li{
+	list-style-type:none
+	color: brown;
+	display: block;
+}
+.benefits{
+	border: solid white;
+	background-color: #FAEBD7;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.trustindicators li{
+	list-style-type:none
+	color: brown;
+	display: block;
+}
+.trustindicators{
+	text-align: center;
+	border: solid white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #FAEBD7;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+footer {
+
+	background-color:#353433 ;
+	padding: 25px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer li{
+	list-style-type:none ;
+	
+}
+footer li a{
+	color: #FAEBD7;
+	text-decoration: none;
+}
+.importantlinks{
+text-align: left
+}
+.form{
+text-align: right;
+}
+.copyright{
+  text-align: center;
+  font-size:20px;
+  color:white;
+  padding-top: 50px;
+}
